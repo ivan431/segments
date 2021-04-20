@@ -24,8 +24,6 @@ class Segment {
         return new Point((start.getX() + end.getX()) / 2, (start.getY() + end.getY()) / 2);
     }
 
-
-
     Point intersection(Segment another) {
 
         if(collinChek(another)==true)
