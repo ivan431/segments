@@ -23,7 +23,7 @@ public class SegmentTest {
     }
 
     @Test
-    void testConstructorSameStartEndCase() {
+    void testConstructorSameStartEndCase() { 
         assertThrows(RuntimeException.class, () -> {
             Point p = new Point(3, 7);
             new Segment(p, p);
